@@ -5,60 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perguntas</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="main.js" />
+  
   </head>
   <body>
     <div class="quest">
       <div>
-        <h2>Qual a capital do Brasil?</h2>
+        <p>
+          Qual desses filmes recebeu o maior número de prêmios no Oscar em 2023?
+        </p>
       </div>
-      <div class="options">
         <form>
-          <input type="radio" id="opcao1-1" name="opcoes1" value="opcao1" />
-          <label for="opcao1-1">São Paulo</label><br />
+          <input type="radio" id="opcao1-1" name="opcoes1" value="a" />
+          <label for="opcao1-1">Tudo em todo lugar ao mesmo tempo</label><br />
 
-          <input type="radio" id="opcao1-2" name="opcoes1" value="opcao2" />
-          <label for="opcao1-2">Rio de Janeiro</label><br />
+          <input type="radio" id="opcao1-2" name="opcoes1" value="b" />
+          <label for="opcao1-2">Top Gun: Maverick</label><br />
 
-          <input type="radio" id="opcao1-3" name="opcoes1" value="opcao3" />
-          <label for="opcao1-3">Brasília</label><br />
+          <input type="radio" id="opcao1-3" name="opcoes1" value="c" />
+          <label for="opcao1-3">A Baleia</label><br />
+
+          <button onclick="validarResposta()" class="button">Próxima Pergunta</button>
         </form>
-        <div>
-          <button class="button">Proxima Pergunta</button>
-        </div>
-      </div>
-      <!--<div class="quest">
-        <h2>Qual deste bioma está presente no sudeste do Brasil?</h2>
-        <form class="options">
-          <input type="radio" id="opcao2-1" name="opcoes2" value="opcao1" />
-          <label for="opcao2-1">Mata Atlântica</label><br />
-
-          <input type="radio" id="opcao2-2" name="opcoes2" value="opcao2" />
-          <label for="opcao2-2">Cerrado</label><br />
-
-          <input type="radio" id="opcao2-3" name="opcoes2" value="opcao3" />
-          <label for="opcao2-3">Caatinga</label><br />
-        </form>
-        <div>
-          <button class="button">Proxima Pergunta</button>
-        </div>
-      </div>
-      <div class="quest">
-        <h2>Qual o estado mais populoso do Brasil?</h2>
-        <form class="options">
-          <input type="radio" id="opcao3-1" name="opcoes3" value="opcao1" />
-          <label for="opcao3-1">São Paulo</label><br />
-
-          <input type="radio" id="opcao3-2" name="opcoes3" value="opcao2" />
-          <label for="opcao3-2">Bahia</label><br />
-
-          <input type="radio" id="opcao3-3" name="opcoes3" value="opcao3" />
-          <label for="opcao3-3">Minas Gerais</label><br />
-        </form>
-        <div>
-          <button class="button">Proxima Pergunta</button>
-        </div>
-      </div> -->
-    </div>
+        <script src="main.js"></script>
   </body>
 </html>
