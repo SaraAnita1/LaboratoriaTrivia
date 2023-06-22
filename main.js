@@ -70,10 +70,8 @@ function validarResposta3() {
       alert("Resposta incorreta.");
     }
     window.location.href = "results.html";
+    localStorage.setItem("pontuacao", pontuacao);
   } else {
     alert("Selecione uma opção antes de prosseguir.");
   }
 }
-
-var pontos = document.querySelector(".points");
-pontos.innerHTML = `${pontuacao}/3`;

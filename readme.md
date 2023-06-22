@@ -50,10 +50,12 @@ Dia 3:
 - acionamento da contagem da pontuação.
 - Finalização da parte de Javascript com algumas resalvas
   - com contagem não ocorrendo da pontuação chamar ajuda para resolver essa questão se possivel
-  - com o mesmo codigo só que escritono editor de texto usado pela dupla não estava indo
+  - com o mesmo codigo só que escrito no vs code (editor de texto usado pela dupla não estava indo)
 
 Dia 4:
 
 Ajuste do Layout
+
+O processo de design da experiência é prático e resolve a necessidade da usuária pois consiste em um quiz rápido e intuitivo contendo 3 questões. Esse repositório possui duas imagens do protótipo conforme sua evolução foi ocorrendo e representando marcos pontuais. Algumas mudanças de layout foram realizadas ao longo do caminho com a finalidade de tornar a página mais dinâmica.
 
 https://cdn.discordapp.com/attachments/925377188402987058/1121408950512930856/Sem_titulo-2023-06-22-0841.png
