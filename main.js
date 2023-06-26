@@ -71,6 +71,7 @@ function validarResposta3() {
     }
     window.location.href = "results.html";
     localStorage.setItem("pontuacao", pontuacao);
+   
   } else {
     alert("Selecione uma opção antes de prosseguir.");
   }
